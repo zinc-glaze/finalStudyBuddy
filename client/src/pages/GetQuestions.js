@@ -102,17 +102,18 @@ class Questions extends Component {
                 <Col size="md-12">
                 <p className="addToSet">Add a new card to the set</p>
                   <form>
-                    <Input
-                      value={this.state.answer}
-                      onChange={this.handleInputChange}
-                      name="answer"
-                      placeholder="Term"
-                    />
+                    
                     <Input
                       value={this.state.question}
                       onChange={this.handleInputChange}
                       name="question"
-                      placeholder="Definition"
+                      placeholder="Question"
+                    />
+                    <Input
+                      value={this.state.answer}
+                      onChange={this.handleInputChange}
+                      name="answer"
+                      placeholder="Answer"
                     />
                     </form>
                     <FormBtn
