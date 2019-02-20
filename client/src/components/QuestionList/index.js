@@ -21,12 +21,12 @@ export function QuestionListItem({
           <Col size="xs-8 sm-9">
           <div className="cardSetQ">
               <p className="storedAnswer">{answer}</p>
-              <p className="headerTerm">TERM</p>
+              <p className="headerTerm">ANSWER</p>
             </div>
 
             <div className="cardSetA">
               <p className="storedQuestion">{question}</p>
-              <p className="headerDefinition">DEFINITION</p>
+              <p className="headerDefinition">QUESTION</p>
             </div>
           </Col>
         </Row>
