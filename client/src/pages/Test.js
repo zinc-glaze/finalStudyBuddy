@@ -58,10 +58,10 @@ shuffle = (a) => {
          tempState.allQuestions[where].active = false;
          if (this.state.correct + 1 === this.state.allQuestions.length) {
     
-         this.setState({ allQuestions : tempState.allQuestions, correct : this.state.correct + 1, notDone:false });
+         this.setState({ allQuestions : tempState.allQuestions, correct : this.state.correct + 1, notDone:false, correctSound: true });
          }
          else {
-          this.setState({ allQuestions : tempState.allQuestions, correct : this.state.correct + 1 });
+          this.setState({ allQuestions : tempState.allQuestions, correct : this.state.correct + 1, correctSound: true });
          }
        }
        else {
@@ -76,7 +76,7 @@ shuffle = (a) => {
         var temp2State = this.state;
          temp2State.allQuestions[whereWrong].correct = true;
          console.log(this.state.allQuestions[whereWrong].question);
-         this.setState({ allQuestions: temp2State.allQuestions, wrong: this.state.wrong + 1, rightScreen: false})
+         this.setState({ allQuestions: temp2State.allQuestions, wrong: this.state.wrong + 1, rightScreen: false, correctSound: false })
          console.log(this.state);
        }
     }
@@ -99,7 +99,7 @@ shuffle = (a) => {
 
     restartGame = () => {
       API.getUser(this.context.currentId)
-      .then(res => this.setState({ allQuestions : res.data.questions, question:"", answer:"", correct:0, wrong:0, notDone:true, rightScreen:true }))
+      .then(res => this.setState({ allQuestions : res.data.questions, question:"", answer:"", correct:0, wrong:0, notDone:true, rightScreen:true, correctSound: false }))
     }
 
 render() {
