@@ -1,6 +1,5 @@
 .card {
-  background: #FFFFFF;
-  border-radius: 2px;
+  border-radius: 5px;
   height: 300px;
   margin: auto;
   width: 550px;
@@ -10,6 +9,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
   color: white;
+  border-color:#40676E !important;
 }
 .card:hover {
   background: #F3EFE0;
@@ -28,7 +28,7 @@
   background-size: 400% 400%;
   border-radius: 2px;
   border-color: rgb(0, 0, 0); */
-
+  
 	-webkit-animation: shimmer 30s ease infinite;
 	-moz-animation: shimmer 30s ease infinite;
 	animation: shimmer 30s ease infinite;

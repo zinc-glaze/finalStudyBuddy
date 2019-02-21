@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import Jumbotron from "../components/Jumbotron";
 import { Col, Row, Container } from "../components/Grid";
-import { MyContext } from "../MyContext";
 import QuestionCard from "../components/QuestionCard";
 import Nav from "../components/Nav";
 import API from "../utils/API";
 import Footer from "../components/Footer";
-import { Redirect } from 'react-router';
 import { Link } from "react-router-dom";
 
 class Homepage extends Component {
@@ -45,16 +43,10 @@ class Homepage extends Component {
         <Nav />
         <Row>
           <Col size="md-12">
-            <Jumbotron>
-            <MyContext.Consumer>
-              {({ currentUser }) => (
-                <h1 className="App-title">
-                  {currentUser ? (<Redirect to="/getQuestions"/>) : (<div><h1 className="jumboTitle">Study Buddy</h1>
-              <h3 className="jumboSlogan">The Best Way To Learn!</h3></div>)}
-                </h1>
-              )}
-            </MyContext.Consumer>
-            <Link to="/register"><h4>Click Here to Register</h4></Link>
+          <Jumbotron>
+              <h1 className="jumboTitle">Study Buddy</h1>
+              <h3 className="jumboSlogan">The Best Way To Learn!</h3>
+              <Link to="/register"><h3 className="registrationLink">Sign Up Now!</h3></Link>
             </Jumbotron>
             <span>
               <div className="quesWrap">
