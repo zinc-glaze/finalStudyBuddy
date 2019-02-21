@@ -110,7 +110,7 @@ class Register extends Component {
           ) : (
             <div style={{ margin: "0 auto" }}>
               <h1 className="regComplete">Registration Successful!</h1>
-              <Link to="/">
+              <Link onClick={this.forceUpdate} to={'/'}>
                 <h2
                   className="regHomeBtn"
                   style={{
