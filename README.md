@@ -7,6 +7,10 @@ This is a flashcard-based study aid that allows the user to create an account, c
 
 The app utilizes React.js as a front end framework and integrates sound effects as React elements controlled by conditional rendering and using the react-sound npm package.
 
+The app also utilizes:
+* Bootstrap and custom CSS for styling and animations
+* Context to manage user registration and login
+
 ### Screenshots
 
 
