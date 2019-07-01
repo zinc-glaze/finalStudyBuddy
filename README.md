@@ -15,19 +15,19 @@ The app also utilizes:
 
 ![Studdy Buddy](/screencapture-studybuddyunc-herokuapp-2019-06-28-15_06_18.png)
 
-![Studdy Buddy](screens/screencapture-studybuddyunc-herokuapp-getQuestions-2019-06-28-15_14_29)
+![Studdy Buddy](/screencapture-studybuddyunc-herokuapp-getQuestions-2019-06-28-15_14_29)
 
-![Studdy Buddy](screens/screencapture-studybuddyunc-herokuapp-getQuestions-2019-06-28-15_20_13)
+![Studdy Buddy](/screencapture-studybuddyunc-herokuapp-getQuestions-2019-06-28-15_20_13)
 
-![Studdy Buddy](screens/screencapture-studybuddyunc-herokuapp-register-2019-06-28-15_09_36)
+![Studdy Buddy](/screencapture-studybuddyunc-herokuapp-register-2019-06-28-15_09_36)
 
-![Studdy Buddy](screens/screencapture-studybuddyunc-herokuapp-register-2019-06-28-15_09_53)
+![Studdy Buddy](/screencapture-studybuddyunc-herokuapp-register-2019-06-28-15_09_53)
 
-![Studdy Buddy](screens/screencapture-studybuddyunc-herokuapp-test-2019-06-28-15_22_07)
+![Studdy Buddy](/screencapture-studybuddyunc-herokuapp-test-2019-06-28-15_22_07)
 
-![Studdy Buddy](screens/screencapture-studybuddyunc-herokuapp-test-2019-06-28-15_22_58)
+![Studdy Buddy](/screencapture-studybuddyunc-herokuapp-test-2019-06-28-15_22_58)
 
-![Studdy Buddy](screens/screencapture-studybuddyunc-herokuapp-test-2019-06-28-15_23_47)
+![Studdy Buddy](/screencapture-studybuddyunc-herokuapp-test-2019-06-28-15_23_47)
 
 # Create React Express App
 
