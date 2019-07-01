@@ -13,7 +13,7 @@ The app also utilizes:
 
 ### Screenshots
 
-![Studdy Buddy](screens/screencapture-studybuddyunc-herokuapp-2019-06-28-15_06_18.png)
+![Studdy Buddy](/screencapture-studybuddyunc-herokuapp-2019-06-28-15_06_18.png)
 
 ![Studdy Buddy](screens/screencapture-studybuddyunc-herokuapp-getQuestions-2019-06-28-15_14_29)
 
