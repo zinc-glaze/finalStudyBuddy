@@ -1,3 +1,12 @@
+# Study Buddy
+## UNC Coding Bootcamp Final Project 2-22-2019
+
+Deployed App: 
+
+This is a flashcard-based study aid that allows the user to create an account, create a set of custom questions and answers, and then quiz themselves.
+
+The app utilizes React.js as a front end framework and integrates sound effects using the react-sound npm package.
+
 # Create React Express App
 
 ## About This Boilerplate
